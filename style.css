@@ -1,0 +1,172 @@
+:root{ 
+    --cor1: #aef055;
+    --cor2: #e0ffc3 ;
+    --cor3: #25e4bc ;
+    --cor4: #3f8978 ;
+    --cor5: #514442 ;
+    --color1: #7375a5 ;
+    --color2: #21a3a3 ;
+    --color3: #13c8b5 ;
+    --color4: #6cf3d5 ;
+    --color5: #2b364a ;
+}
+
+html,body{
+    background-color: var(--color5);    
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    /*color: #4A54CC;*/
+    color: var(--cor2);
+}
+/**/
+.tb1 {
+    font-size: 1.5vw;
+    border-style: none;
+    border-radius: 15px;
+    background-color : var(--cor2);
+    color: var(--color1);
+}
+.tb1:hover{
+    background-color : #97d0f1;
+}
+.usuario{
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+#formulario{
+    font-size: 2vw;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    height: 5vw ;
+    background: #E8F6FE;
+    color: var(--color1);
+}
+.login{
+    display: flex;
+    align-items: center;
+}
+#texto{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: var(--cor2);
+    background: var(--color2);
+    /*box-shadow:  10px 10px 20px #367466,
+             -10px -10px 20px #489e8a;*/
+}
+h1{
+    font-size: 10vw;
+}
+h2{
+    font-size: 5vw;
+}
+
+#doacao{
+    width: center;
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#doe{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+#cartao {
+    border-style: none;
+    font-size: 3vw;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #6497b4;
+    box-shadow:  15px 15px 20px #45687c,
+                -15px -15px  20px #83c6ec;
+}
+.clonagi{
+    font-size: 8vw;
+    border-radius: 50px;
+    background: var(--color3);
+    box-shadow:  15px 15px  20px #10aa9a,
+             -15px -15px  20px #16e6d0;
+}
+.clonagi:hover{
+    font-size: 8vw;
+    border-radius: 50px;
+    background: var(--color1);
+    box-shadow:  10px 10px 20px #62638c,
+             -10px -10px 20px #8487be;
+}
+.input{
+    font-size: 3vw;
+    border-style: none;
+    border-radius: 15px;
+    background-color : #b4caca;
+    color: #5f8383;
+}
+p{  
+    font-size: 3px;
+    color:black;
+    display: flex;
+    justify-content: center;
+}
+.clonagi,#frontPage{
+    width: center;
+    height: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.estilo{
+    border-radius: 15px;
+    background: #6497b4;
+    box-shadow:  15px 15px  20px #45687c,
+             -15px -15px  20px #83c6ec;
+}
+.cadastro{
+    margin: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /*margin-bottom: 20px;**/
+}
+#nome, #senha, #cpf, #email, #confirmarSenha{
+    margin-bottom: 15px;
+    font-size: 1.5vw;
+    border-style: none;
+    border-radius: 15px;
+    background-color : #b4caca;
+    color: #5f8383;
+}
+.clonagi#cadastrar{
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background: #6497b4;
+    box-shadow:  10px 10px  20px #45687c,
+             -10px -10px  20px #83c6ec;
+}
+.clonagi#cadastrar:hover{
+    font-size: 1.5vw;
+    border-radius: 50px;
+    background: #6fce75;
+    box-shadow:  10px 10px 20px #5eaf63,
+             -10px -10px 20px #80ed87;
+}
+.textoCad{
+    margin: 0;
+    font-size: large;
+}
