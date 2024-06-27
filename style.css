@@ -1,0 +1,65 @@
+:root{ 
+    --cor2: #f6f3aa ;
+    --color3: #1395c8 ;  
+    --color5: #2b364a ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--color3);    
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    color: var(--cor2);
+}
+h1{
+    font-size: 8rem;
+}
+h2{
+    font-size: 3rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.usuario{
+    margin: 0;
+    display: flex;
+    justify-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+#texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.doe{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+p{  
+    font-size: 3px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
