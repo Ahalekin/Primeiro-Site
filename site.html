@@ -3,29 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/botao.css"/>
+    <link rel="stylesheet" href="css/form-home.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
     <title>Document</title>
 </head>
 <body>
-    <div id="formulario">
-        <form action="/cadastro.html" class="usuario">
-            <div class="login">
+    <header id="cabeçalho">
+            <ul>
+                <li class="cabeçalho-link"><a href="site.html">Home</a></li>
+                <li class="cabeçalho-link"><a href="login.html">Login</a></li>
+                <li class="cabeçalho-link"><a href="cadastro.html">Cadastrar</a></li>
+            </ul>
+        <form action="/cadastro.html">
+            <div class="login-cabeçalho">
                 Username: 
-                <input name="username" type="text" class="tb1" placeholder="Username"/>
+                <input name="username" type="text" class="login" placeholder="Username"/>
                 
-                Password: <input class="tb1" type="password" name="password" placeholder="Password" />
-                <input class="tb1" type="submit" name="login" value="Login" />
+                Password: <input class="login" type="password" name="password" placeholder="Password" />
+                <input class="login" type="submit" name="login" value="Login" />
             </div>
         </form>
-    </div>
-    <div id="texto">
-        <h1>Viu o que um Clique pode fazer?</h1><br>   
-        <h2>Doe agora para Canudos e veja o que sua doação fez</h2><br>
+    </header>
+    <main id="texto">
+        <h1>Viu o que um Clique pode fazer?</h1>   
+        <h2>Doe agora para Canudos e veja o que sua doação fez</h2>
         <h2>A receita de nossos produtos são totalmente exclusivos para o combate a poluição</h2>
-    </div>
-    <form id="doacao" action="/Cartao.html">
-        <input class="clonagi" id="frontPage" type="submit" name="login" value="DOE" />
+    </main>
+    <form class="doacao" action="/Cartao.html">
+        <button id="frontPage" type="submit" name="doe">DOE</button>
     </form>
+    <footer class="container">
+    <div class="rodape-esquerda">
+        <h2 class="rodape-titulo">Desenvolvedor</h2>
+        <ul class="rodape-social">
+            <li><a href="https://github.com/ahalekin" class="rodape-midia">Alexis<img src="img/github.png"
+                        alt="Ícone do Github"></a></li>
+        </ul>
+    </div>
+        <nav>
+            <ul class="rodape-navegacao">
     
+                <li class="rodape-link"><a href="site.html">Home</a></li>
+                <li class="rodape-link"><a href="Cartao.html">Doação</a></li>
+                <li class="rodape-link"><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>

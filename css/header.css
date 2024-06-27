@@ -1,0 +1,38 @@
+header{
+    background-color: var(--color5);
+}
+ul{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.cabeçalho{
+    padding: 1.5rem;
+}
+.login {
+    font-size: 1.5rem;
+    border-style: none;
+    border-radius: 15px;
+    background-color : var(--cor2);
+    color: var(--color5);
+}
+.login-cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: row;
+}
+.cabeçalho-link {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 .5rem .7rem;
+}
+a{
+    font-size: 1.5rem;
+    color: #ffff;
+}
+a:visited{
+    font-size: 1.5rem;
+    color: var(--cor2)
+}

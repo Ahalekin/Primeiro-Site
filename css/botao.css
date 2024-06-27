@@ -1,0 +1,38 @@
+
+button{ 
+    margin: 0;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8rem;
+    border-radius: 1rem;
+    background: var(--color3);
+    color:var(--color5);
+}
+button:hover{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 8rem;
+    border-radius: 1rem;
+    color: var(--color3);
+    background: var(--cor2);
+}
+
+.doacao{
+    width: center;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.botao-peq{
+    margin: 0;
+    font-size: 2rem;
+}
+.botao-peq:hover{
+    margin: 0;
+    font-size: 2rem;
+}

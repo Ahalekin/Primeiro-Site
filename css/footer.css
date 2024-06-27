@@ -1,0 +1,44 @@
+:root{ 
+    --cor2: #f6f3aa ;
+    --color3: #1395c8 ;  
+    --color5: #2b364a ;
+}
+footer{
+    width: 100%;
+    margin: 0;
+    background-color: var(--color5);
+    color: var(--cor2);
+}
+
+.rodape-titulo {
+    margin: 1rem;
+    color: #f7ebec;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+.rodape-esquerda{
+    display: flex;
+    flex-grow: 1;
+    justify-content: left;
+    margin:0;
+}
+.rodape-social {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.rodape-navegacao {
+    color: #fff;
+    text-align: center;
+    line-height: 3;
+}
+
+.rodape-link {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 .5rem .7rem;
+}

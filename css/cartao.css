@@ -1,0 +1,14 @@
+#cartao {
+    border-style: none;
+    font-size: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 0.8rem;
+    background: var(--color5);
+}
+.input{
+    font-size: 2rem;
+    border-style: none;
+    border-radius: 0.5rem;
+}

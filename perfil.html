@@ -3,21 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/botao.css"/>
+    <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
     <title>Document</title>
 </head>
 <body>
-    <resDoa id="texto">
-            <h1>Você doou: R$2,00 </h1>
-            <h2>Salvou 2 nemos e 1 caramujo</h2>
-    </resDoa>
-    <apelacao id="doe">
-        <h2>caso queira aumentar seu impacto nos dê mais seu dinheiro!</h2>
-        <doacao>
-            <form action="/Cartao.html" id="doacao">
-                <button type="submit" class="clonagi" name="TEU PAI DE CALCINHA">Doe
-            </form>
-        </doacao>
-    </apelacao>
+    <header class="cabeçalho">
+        <ul>
+          <li class="cabeçalho-link"><a href="site.html">Home</a></li>
+        </ul>
+    </header>
+
+    <div class="conteudo">
+        <h1>Você doou: R$2,00 </h1>
+        <h2>Salvou 2 nemos e 1 caramujo</h2>
+    </div>
+    <nav class="doe">
+        <h2>caso queira aumentar seu impacto nos dê mais do seu dinheiro!</h2>
+        <form action="/Cartao.html" class="doacao">
+            <button id="frontPage" type="submit" name="doe">DOE</button>
+        </form>
+    </nav>
+    <footer class="container">
+        <div class="rodape-esquerda">
+            <h2 class="rodape-titulo">Desenvolvedor</h2>
+            <ul class="rodape-social">
+                <li><a href="https://github.com/ahalekin" class="rodape-midia">Alexis<img src="img/github.png"
+                            alt="Ícone do Github"></a></li>
+            </ul>
+        </div>
+            <nav>
+                <ul class="rodape-navegacao">
+        
+                    <li class="rodape-link"><a href="site.html">Home</a></li>
+                    <li class="rodape-link"><a href="Cartao.html">Doação</a></li>
+                    <li class="rodape-link"><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </footer>
 </body>
 </html>
